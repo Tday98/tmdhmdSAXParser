@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="392.0" prefWidth="525.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tmdhmdsaxparser.FXMLDocumentController">
+    <children>
+        <Button fx:id="loadButton" layoutX="14.0" layoutY="20.0" onAction="#handleLoad" text="Load XML" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="20.0" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Button fx:id="clearButton" layoutX="237.0" layoutY="20.0" onAction="#handleClear" text="Clear" AnchorPane.topAnchor="20.0" />
+      <Button fx:id="exitButton" layoutX="231.0" layoutY="20.0" onAction="#handleExit" text="Exit" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="20.0" />
+      <TextArea fx:id="text" layoutX="13.0" layoutY="61.0" prefHeight="322.0" prefWidth="500.0" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="9.0" AnchorPane.rightAnchor="9.0" />
+    </children>
+</AnchorPane>
